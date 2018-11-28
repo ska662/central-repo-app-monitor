@@ -9,6 +9,9 @@ eureka:
       enabled: true
     lease:
       duration: 5
+    client:
+        register-with-eureka: true
+        fetch-registry: true
 management:
   security:
     enabled: false
