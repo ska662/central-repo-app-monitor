@@ -1,17 +1,17 @@
-eureka:         
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8095/eureka/
-    healthcheck:
-      enabled: true
-    lease:
-      duration: 5
+eureka:
+    instance:
+        leaseRenewalIntervalInSeconds: 1
+        leaseExpirationDurationInSeconds: 2
     client:
+        serviceUrl:
+            defaultZone: http://localhost:8095/eureka/
+        healthcheck:
+            enabled: true
+        lease:
+            duration: 5
         register-with-eureka: true
         fetch-registry: true
+
 management:
-  security:
-    enabled: false
+    security:
+        enabled: false
