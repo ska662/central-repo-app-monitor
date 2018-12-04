@@ -1,3 +1,14 @@
+eureka:
+   client:
+       serviceUrl:
+           defaultZone: http://eureka:8095/eureka/
+       register-with-eureka: true
+       fetch-registry: true
+      
+management:
+ security:
+   enabled: false
+
 url: http://client-server:8082
 containerUrl: http://agenttodocker:9001
 warUrl: http://war-client:8085
