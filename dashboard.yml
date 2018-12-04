@@ -8,3 +8,8 @@ eureka:
 management:
  security:
    enabled: false
+data:
+   mongodb:
+     host: mongodb
+     port: "27017"
+     uri: mongodb://mongodb
