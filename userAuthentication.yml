@@ -20,7 +20,7 @@ spring:
     show_sql: true
     generate-ddl: true
     hibernate.ddl-auto: create
-    database-platform: org.hibernate.dialect.MySQL5Dialect
+#    database-platform: org.hibernate.dialect.MySQL5Dialect
   application:
     name: login
     
