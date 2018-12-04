@@ -12,6 +12,7 @@ management:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+    host: mysql
     url: jdbc:mysql://mysql:3306/login
     username: root
     password: 12345
