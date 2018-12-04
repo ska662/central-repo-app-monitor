@@ -1,0 +1,38 @@
+eureka:
+   client:
+       serviceUrl:
+           defaultZone: http://eureka:8095/eureka/
+       register-with-eureka: true
+       fetch-registry: true
+      
+management:
+ security:
+   enabled: false
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/login
+    username: root
+    password: 12345
+  jpa:
+    openInView: false
+    show_sql: true
+    generate-ddl: true
+    hibernate.ddl-auto: create
+  application:
+    name: login
+    
+usercontroller:
+  messages:
+    exception1: Userlogin Not Found
+    exception2: Sucessfully Created
+    exception3: please fill in username and password
+    exception4: user username not found
+    exception5: Invalid Login.Please check your username and password
+
+kafka:
+  ipAddress: kafka:9092
+  groupId: group_id54
+  listeningTopic: user1
+  containerFactory: kafkaUserListenerContainerFactory
