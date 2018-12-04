@@ -11,5 +11,5 @@ management:
 data:
    mongodb:
      host: mongodb
-     port: "27017"
-     uri: mongodb://mongodb
+     port: 27017
+     uri: mongodb://mongodb/test
