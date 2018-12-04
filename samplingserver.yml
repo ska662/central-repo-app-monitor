@@ -1,0 +1,7 @@
+url: http://client-server:8082
+containerUrl: http://agenttodocker:9001
+warUrl: http://war-client:8085
+
+URL: http://agenttodocker:9001
+JmeterProperties: /home/cgi/Downloads/apache-jmeter-5.0/bin/jmeter.properties
+JmeterHome: /home/cgi/Downloads/apache-jmeter-5.0
