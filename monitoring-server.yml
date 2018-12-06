@@ -28,3 +28,7 @@ warCpuUsageInterval: 10000
 warNetworkInterval: 10000
 warThreadInterval: 10000
 warRamInterval: 10000
+
+nodeCPUInterval: 10000
+nodeMemoryInterval: 10000
+nodeTemperatureInterval: 10000
