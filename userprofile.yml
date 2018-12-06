@@ -12,6 +12,6 @@ management:
 data:
    mongodb:
      database: test
-     host: mongodb
+     host: localhost
      port: 27017
-     url: mongodb://mongodb/test   
+     url: mongodb://localhost:27017/test   
