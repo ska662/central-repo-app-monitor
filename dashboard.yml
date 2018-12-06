@@ -4,7 +4,6 @@ eureka:
            defaultZone: http://eureka:8095/eureka/
        register-with-eureka: true
        fetch-registry: true
-      
 management:
  security:
    enabled: false
@@ -14,3 +13,5 @@ data:
      host: mongodb
      port: 27017
      url: mongodb://mongodb/test
+
+monitoringServerUrl: http://monitoring-server:8188
