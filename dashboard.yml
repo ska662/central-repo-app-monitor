@@ -14,4 +14,4 @@ data:
      port: 27017
      url: mongodb://mongodb/test
 
-monitoringServerUrl: http://monitoring-server:8188
+monitoringServerUrl: https://appmonitoring-zuul.stackroute.in/monitoring
